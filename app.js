@@ -5,4 +5,10 @@ courseRoster.config(function($stateProvider, $urlRouterProvider) {
     url: "",
     templateURL: "partials/home.html"
   });
+
+  $stateProvider.state('courses', {
+    url:"/courses",
+    templateUrl: "partials/courses.html"
+    controller: "CoursesCtrl"
+  });
 });
