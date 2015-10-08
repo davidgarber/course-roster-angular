@@ -8,7 +8,7 @@ courseRoster.config(function($stateProvider, $urlRouterProvider) {
 
   $stateProvider.state('courses', {
     url:"/courses",
-    templateUrl: "partials/courses.html"
+    templateUrl: "partials/courses.html",
     controller: "CoursesCtrl"
   });
 });
