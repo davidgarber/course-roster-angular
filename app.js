@@ -2,7 +2,7 @@ var courseRoster = angular.module('courseRoster', ['ui.router']);
 
 courseRoster.config(function($stateProvider, $urlRouterProvider) {
   $stateProvider.state('home', {
-    url:"",
+    url: "",
     templateURL: "partials/home.html"
   });
 });
