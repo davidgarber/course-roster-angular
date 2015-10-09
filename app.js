@@ -7,13 +7,13 @@ courseRoster.config(function($stateProvider, $urlRouterProvider) {
   });
 
   $stateProvider.state('courses', {
-    url:"/courses",
+    url: "/courses",
     templateUrl: "partials/courses.html",
     controller: "CoursesCtrl"
   });
 
   $stateProvider.state('courses.students', {
-    url: "/:courseid",
+    url: "/:courseId",
     templateUrl: "partials/courses.students.html",
     controller: "StudentsCtrl"
   });
